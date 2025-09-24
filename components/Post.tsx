@@ -7,7 +7,6 @@ export type PostProps = {
 };
 
 export default function Post({ postData }: PostProps) {
-  
   return (
     <Pressable
       onPress={() =>
